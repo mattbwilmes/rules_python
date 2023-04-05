@@ -8,7 +8,7 @@ py_test(
   main = "test_lightning.py",
  srcs = ["test_lightning.py"],
   deps = [
-   "//lightning:example-lightning",
+   "//lightning_dir:example-lightning",
     requirement("pytest"),
   ]
 )
